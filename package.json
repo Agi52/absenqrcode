@@ -1,0 +1,13 @@
+{
+    "name": "absensismaco",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "serve": "browser-sync start --proxy \"localhost:6969\" --files \"**/*.php\" \"**/*.css\" \"**/*.js\""
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "browser-sync": "^2.27.11"
+    }
+  }
